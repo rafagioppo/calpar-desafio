@@ -156,7 +156,7 @@ export default function App() {
                     : "bg-red-100 text-red-800 dark:bg-red-700 dark:text-red-100"
                 }
               `}>
-                  {status === "success" && "✅ Sucesso ao encontrar usuário."}
+                  {status === "success" && "✅ Sucesso ao encontrar usuário!"}
                   {status === "warning" &&
                     "⚠️ Sucesso ao encontrar usuário, mas está indisponível."}
                   {status === "error" && "❌ Usuário não encontrado."}
